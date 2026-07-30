@@ -5,7 +5,13 @@
 This repository creates an unofficial firmware file that reduces all 12 built-in MP3 prompts—including power on, power off, Bluetooth and reset sounds—to **14.8651% of their original amplitude**. Normal music, movie and game playback volume is not changed.
 
 > [!WARNING]
-> This is unofficial firmware and is not endorsed by Creative Technology. It was successfully installed and tested on one Creative Stage SE MF8410, but firmware updates always carry risk. Use only with the exact supported model and firmware. Never interrupt power during flashing.
+> This is unofficial firmware and is not endorsed by Creative Technology. The repository owner personally installed and tested it on his own Creative Stage SE MF8410, where it is working normally and the startup and status sounds are substantially quieter. Firmware updates always carry risk. Use only with the exact supported model and firmware, and never interrupt power during flashing.
+
+## Personally tested
+
+The repository owner installed the generated firmware on his own Creative Stage SE (MF8410) in July 2026. The update completed successfully, the soundbar continues to work normally, and all startup and status prompts were reduced to the intended quieter level.
+
+This is a successful test on one physical unit, not a guarantee that every unit or hardware revision will behave identically.
 
 ## Why this exists
 
@@ -79,7 +85,7 @@ See [technical notes](docs/TECHNICAL_NOTES.md) and [validation results](docs/VAL
 
 ## Can this brick the soundbar?
 
-No firmware modification can be described as risk-free. The patched image passed all identified checksums and successfully ran on one unit, but no documented consumer recovery procedure has been confirmed. Keep Creative's official package and do not interrupt an update.
+No firmware modification can be described as risk-free. The patched image passed all identified checksums and successfully ran on the repository owner's own unit, but no documented consumer recovery procedure has been confirmed. Keep Creative's official package and do not interrupt an update.
 
 ## Legal and copyright position
 
