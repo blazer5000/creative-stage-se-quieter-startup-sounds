@@ -1,0 +1,3 @@
+08a56e7e08e36e1623feb29427eb9f36a403b76829abd6edfe004e93841976ab  official-v1001-ota.bin  # reference only; file not included
+e298034b4df9669b03781e21128b631ee30c5328a1388b41cab7bb2b2667358c  patched-v1001-14.8651pct-ota.bin  # reference only; file not included
+4591522de899859f93acbce32d2be7ea6a8db8db0a5c928a6a6ffbcdb30eb9e4  patches/stage-se-v1001-quieter-prompts.stsep

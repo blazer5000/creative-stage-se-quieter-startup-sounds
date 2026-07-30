@@ -1,0 +1,47 @@
+name: Compatibility report
+description: Report whether the patch worked on a Creative Stage SE MF8410
+labels: [compatibility]
+body:
+  - type: checkboxes
+    attributes:
+      label: Safety and file-sharing confirmation
+      options:
+        - label: I will not upload Creative firmware or extracted MP3 files.
+          required: true
+        - label: My device label says Creative Stage SE, model MF8410.
+          required: true
+  - type: input
+    attributes:
+      label: Purchase region and approximate date
+      placeholder: Singapore, 2024
+  - type: dropdown
+    attributes:
+      label: Patcher operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Official input SHA-256
+      placeholder: 08a56e7e...
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Result
+      options:
+        - Installed successfully; prompts are quieter
+        - Patcher rejected the input
+        - Soundbar rejected the update
+        - Update appeared to complete but behaviour did not change
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Details
+      description: Describe LED behaviour, prompts tested and any error text. Do not attach firmware.
