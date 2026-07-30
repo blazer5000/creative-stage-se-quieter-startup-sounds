@@ -1,0 +1,16 @@
+# Generated proprietary firmware must never be committed
+ota.bin
+*.ota
+Creative_Stage_SE_quieter_prompts/
+Creative Stage SE FW Update*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
